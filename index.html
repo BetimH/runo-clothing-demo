@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RUNO Clothing — demo e dyqanit online. Zgjidh produktet dhe porosit përmes WhatsApp.">
+  <title>RUNO Clothing — Veshje me karakter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="announcement-bar">DËRGESA NË KOSOVË · POROSIT DIREKT NË WHATSAPP</div>
+  <nav class="navbar navbar-expand-lg sticky-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home" aria-label="RUNO home">RUNO<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Hap menynë">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Ballina</a></li>
+          <li class="nav-item"><a class="nav-link" href="#shop">Koleksioni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Rreth RUNO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakti</a></li>
+        </ul>
+        <a class="nav-cta" href="#shop">Shiko produktet <i class="bi bi-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Model me veshje moderne"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light-eyebrow"><span></span> STILI YT. RREGULLAT E TUA.</p>
+        <h1>Vishu për<br><em>veten tënde.</em></h1>
+        <p class="hero-copy">Pjesë të përzgjedhura për përditshmëri, lëvizje dhe çdo version tëndin.</p>
+        <a class="btn btn-light rounded-pill hero-btn" href="#shop">Eksploro koleksionin <i class="bi bi-arrow-down-right ms-2"></i></a>
+      </div>
+      <div class="hero-note"><span>01 / 03</span><span>NEW SEASON · RUNO</span></div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-6 col-lg-3 benefit"><i class="bi bi-box-seam"></i><span>Dërgesë e përshtatshme</span></div>
+          <div class="col-6 col-lg-3 benefit"><i class="bi bi-chat-dots"></i><span>Porosi të thjeshta</span></div>
+          <div class="col-6 col-lg-3 benefit"><i class="bi bi-rulers"></i><span>Pyet për madhësinë</span></div>
+          <div class="col-6 col-lg-3 benefit"><i class="bi bi-heart"></i><span>Zgjedh me kujdes</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-section section-space" id="shop">
+      <div class="container">
+        <div class="section-heading d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3">
+          <div>
+            <p class="eyebrow"><span></span> GJEJ STILIN TËND</p>
+            <h2>Koleksioni <em>RUNO</em></h2>
+            <p class="section-subtitle">Produkte demonstrative — fotot, emrat dhe çmimet duhet të konfirmohen nga dyqani.</p>
+          </div>
+          <div class="shop-controls">
+            <label class="visually-hidden" for="categoryFilter">Filtro sipas kategorisë</label>
+            <select id="categoryFilter" class="form-select category-select">
+              <option value="all">Të gjitha</option>
+              <option value="tops">Bluza</option>
+              <option value="outerwear">Xhaketa</option>
+              <option value="bottoms">Pantallona</option>
+              <option value="sets">Komplete</option>
+            </select>
+          </div>
+        </div>
+        <div class="row g-3 g-md-4 mt-2" id="productGrid" aria-live="polite"></div>
+        <div class="catalog-note"><i class="bi bi-info-circle"></i> Ky është një demo. Produktet dhe çmimet nuk janë oferta reale të RUNO Clothing.</div>
+      </div>
+    </section>
+
+    <section class="editorial-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-0">
+          <div class="col-lg-6 editorial-photo"></div>
+          <div class="col-lg-6 editorial-copy">
+            <p class="eyebrow"><span></span> MË PAK ZHURMË. MË SHUMË STIL.</p>
+            <h2>Detaje të vogla.<br><em>Ndjesi e madhe.</em></h2>
+            <p>Një hapësirë online ku mund t'i shohësh produktet, të zgjedhësh madhësinë dhe të dërgosh porosinë pa humbur kohë në mesazhe të pafundme.</p>
+            <a href="#shop" class="text-link">Gjej pjesën tënde <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-strip" id="contact">
+      <div class="container order-strip-inner">
+        <div>
+          <p class="eyebrow light-eyebrow"><span></span> GATI PËR POROSI?</p>
+          <h2>Stili yt, vetëm<br><em>një mesazh larg.</em></h2>
+        </div>
+        <a class="btn btn-outline-light rounded-pill" href="#shop">Zgjidh produktin <i class="bi bi-arrow-up-right ms-2"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand-mark footer-brand" href="#home">RUNO<span>.</span></a>
+      <p>Një demo konceptuale për dyqanin online RUNO Clothing.</p>
+      <div class="footer-links"><a href="#shop">Koleksioni</a><a href="#contact">Kontakti</a><a href="https://www.instagram.com/runoclothing.ks/" target="_blank" rel="noopener">Instagram <i class="bi bi-arrow-up-right"></i></a></div>
+      <small>© <span id="year"></span> RUNO Clothing · Demo jozyrtare për prezantim.</small>
+    </div>
+  </footer>
+
+  <button class="cart-fab" id="openCart" aria-label="Hap shportën"><i class="bi bi-bag"></i><span>Shporta</span><b id="cartCount">0</b></button>
+
+  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content product-modal">
+        <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Mbyll"></button>
+        <div id="productModalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content cart-modal">
+        <div class="modal-header">
+          <div><p class="eyebrow mb-1"><span></span> RUNO CHECKOUT</p><h2 class="modal-title" id="cartModalTitle">Porosia jote</h2></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Mbyll"></button>
+        </div>
+        <div class="modal-body">
+          <div id="cartItems" class="cart-items"></div>
+          <form id="orderForm" class="order-form">
+            <h3>Të dhënat për porosi</h3>
+            <div class="row g-3">
+              <div class="col-md-6"><label class="form-label" for="customerName">Emri dhe mbiemri *</label><input class="form-control" id="customerName" name="customerName" required autocomplete="name" placeholder="Emri juaj"></div>
+              <div class="col-md-6"><label class="form-label" for="customerPhone">Telefoni *</label><input class="form-control" id="customerPhone" name="customerPhone" required autocomplete="tel" placeholder="+383 ..."></div>
+              <div class="col-md-6"><label class="form-label" for="customerCity">Qyteti *</label><input class="form-control" id="customerCity" name="customerCity" required autocomplete="address-level2" placeholder="Qyteti"></div>
+              <div class="col-md-6"><label class="form-label" for="customerAddress">Adresa *</label><input class="form-control" id="customerAddress" name="customerAddress" required autocomplete="street-address" placeholder="Rruga / adresa"></div>
+              <div class="col-12"><label class="form-label" for="orderNotes">Shënime (opsionale)</label><textarea class="form-control" id="orderNotes" name="orderNotes" rows="2" placeholder="Ngjyra, udhëzime për dërgesën..."></textarea></div>
+            </div>
+            <div class="checkout-bottom"><div><span>Totali i përafërt</span><strong id="cartTotal">€0.00</strong></div><button class="btn btn-dark rounded-pill" type="submit">Dërgo porosinë <i class="bi bi-whatsapp ms-2"></i></button></div>
+            <p class="form-note">Porosia dërgohet në WhatsApp për konfirmim. Asnjë pagesë nuk kryhet në këtë faqe demo.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3">
+    <div id="noticeToast" class="toast text-bg-dark border-0" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex"><div class="toast-body" id="noticeText">Produkti u shtua në shportë.</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Mbyll"></button></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
